@@ -17,7 +17,7 @@ for (let i = 0; i < animalsArr.length; i++) {
     // animalPicDiv.innerHTML += animal.name + "<br>"
     let name = animal.name.replace(' ', '-');
     let imageTag = `<img src="images/${name}.jpg" onclick="swapAnimal(${i})">`;
-    animalPicDiv.innerHTML += imageTag; // output the dynamically generated img tag
+    animalPicDiv.innerHTML += imageTag; // output the dynamically generated img tag (all the animal pics)
 }
 
 function swapAnimal(indx) {

@@ -33,6 +33,9 @@ body {
     cursor: pointer;
     border-radius: 4px;
 }
+#animal-info {
+    max-width: 580px;
+}
 p {
     color: #555;
     padding: 0px 20px;

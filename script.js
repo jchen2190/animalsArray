@@ -9,8 +9,8 @@ p.textContent = animalsArr[0].desc;
 
 for (let i = 0; i < animalsArr.length; i++) {
     let animal = animalsArr[i];
-    let name = animal.name.replace(' ', '-');
-    let imageTag = `<img src="images/${name}.jpg" onclick="swapAnimal(${i})">`;
+    let name = animal.name.toLowerCase().replace(' ', '-');
+    let imageTag = `<img src="./images/${name}.jpg" onclick="swapAnimal(${i})">`;
     animalPicDiv.innerHTML += imageTag;
 }
 

@@ -1,5 +1,5 @@
 # animalsArray
-![screenshot](./images/screenshot.png)
+![screenshot](./screenshot.png)
 
 ## General
 This project is made as an exercise to append pictures and video players dynamically.

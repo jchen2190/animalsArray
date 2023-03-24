@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+    font-family: sans-serif;
 }
 .container {
     text-align: left;
@@ -7,7 +7,6 @@ body {
     width: 1180px;
     height: 90vh;
     background-color: #fff;
-    /* color: #eef; */
     padding: 20px;
 }
 #ui {
@@ -23,7 +22,6 @@ body {
     text-align: center;
 }
 #video-player {
-    /* padding-top: 22px; */
     margin-left: 20px;
 }
 #animal-pics img {
@@ -49,4 +47,11 @@ h1 {
 }
 h2 {
     padding: 0 20px;
+}
+h1, h3 {
+    display: flex;
+    justify-content: center;
+}
+h4 {
+    margin-left: 100px;
 }
